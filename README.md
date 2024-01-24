@@ -1,6 +1,7 @@
 <h1 style="text-align: center">Welcome to Chicken Stock</h1>
-> 웹 소켓 기간이 만료되어 현재 실행은 불가능한 상태에요.
+<img src="./chicken_stock.png"/>
 
+React를 학습하면서 만든 토이프로젝트로, 한국 투자증권의 API를 활용하여 실제 주식 데이터를 기반으로 모의 투자를 해볼 수 있어요.
 <h2>Information</h2>
 
 <h3>📚 Skill Stack</h3>
@@ -20,3 +21,5 @@ $ npm start
 ```
 
 어플리케이션은 [http://localhost:3000](http://localhost:3000)에서 실행돼요.
+
+>  웹 소켓 기간이 만료되어 현재 실행은 불가능한 상태에요 <br>
