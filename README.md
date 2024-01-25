@@ -1,7 +1,8 @@
 <h1 style="text-align: center">Welcome to Chicken Stock</h1>
 <img src="./chicken_stock.png"/>
 
-React를 학습하면서 만든 토이프로젝트로, 한국 투자증권의 API를 활용하여 실제 주식 데이터를 기반으로 모의 투자를 해볼 수 있어요.
+React를 학습하면서 만든 토이프로젝트로, 한국 투자증권의 API를 활용하여 실제 주식 데이터를 기반으로 모의 투자를 해볼 수 있어요.<br><br>
+<a href="./고급웹프로그래밍텀프로젝트_발표자료.pdf" target="_blank">구체적인 개요를 보고싶어요! (click me)</a>
 <h2>Information</h2>
 
 <h3>📚 Skill Stack</h3>
