@@ -1,0 +1,241 @@
+div {
+  box-sizing: border-box;
+}
+.link-style {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 15px;
+}
+.portfolio-detail {
+  border-left: 1px solid black;
+}
+.portfolio-detail div {
+}
+.buy-btn {
+  color: #ed2926;
+  background-color: #f0d1cf;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+.buy-btn:hover {
+  background-color: #d8b8b6;
+}
+.buy-btn:active {
+  background-color: #b99997;
+}
+.sell-btn {
+  color: #2679ed;
+  background-color: #d0dbef;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+.sell-btn:hover {
+  background-color: #b8c2d3;
+}
+.sell-btn:active {
+  background-color: #9aa4b4;
+}
+.logout-btn {
+  margin-left: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fd7070;
+  color: white;
+}
+.logout-btn:hover {
+  background-color: #fb3d3d;
+}
+.logout-btn:active {
+  background-color: #ab0606;
+}
+.login-bg {
+  background: linear-gradient(to right, #d3959b, #bfe6ba);
+  padding: 20px;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.login-form {
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30%;
+  height: 60%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.login-btn {
+  width: 80%;
+  background-color: #00c471;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+.login-btn:hover {
+  background-color: #14b772;
+}
+.login-btn:active {
+  background-color: #148052;
+}
+.start {
+  opacity: 0;
+}
+.end {
+  opacity: 1;
+  transition: opacity 1.5s;
+}
+.stockdata-bg {
+  background-color: #eee;
+}
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.red-flash {
+  animation: flash 1s;
+  background-color: #efc5c1;
+}
+
+.blue-flash {
+  animation: flash 1s;
+  background-color: #c0cff2;
+}
+.rank-background,
+.mypage-background {
+  width: 100%;
+  /* background: linear-gradient(to right, #be93c5, #7bc6cc); */
+  background: linear-gradient(to right, #d3959b, #bfe6ba);
+  padding: 30px;
+  height: 100vh;
+}
+.rank-table {
+  width: 70%;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  border-collapse: collapse;
+}
+.rank-table td,
+.rank-table th {
+  padding: 15px;
+  border-bottom: 1px solid #c2d3de;
+  border-collapse: collapse;
+  text-align: center;
+}
+.cell-long {
+  width: 40%;
+}
+
+.my-info-background {
+  display: flex;
+  margin: auto;
+}
+.my-info {
+  text-align: center;
+  width: 20vh;
+  margin-left: 45%;
+}
+.edit-myinfo {
+  width: 40%;
+  background-color: white;
+  /* margin-left: 0; */
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.edit-myinfo-btn {
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  padding: 4px 9px;
+}
+.edit-myinfo-btn:hover {
+  background-color: #dad7d7;
+}
+.edit-myinfo-btn:active {
+  background-color: #aba8a8;
+}
+.change-btn {
+  color: white;
+  background-color: #19c980;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  width: 120px;
+}
+.change-btn:hover {
+  background-color: #1d9c67;
+}
+.change-btn:active {
+  background-color: #136f49;
+}
+.close-window-btn {
+  float: right;
+  border: none;
+  color: white;
+  background-color: #fd7070;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.close-window-btn:hover {
+  background-color: #fb3d3d;
+}
+.close-window-btn:active {
+  background-color: #ab0606;
+}
+
+.App {
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
